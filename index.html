@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Happy Birthday</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      font-family: 'Comic Sans MS', cursive;
+      background: linear-gradient(to right, #ffdde1, #ee9ca7);
+    }
+
+    h1 {
+      font-size: 50px;
+      color: #ff4081;
+      margin-top: 50px;
+      animation: glow 2s infinite alternate;
+    }
+
+    @keyframes glow {
+      from { text-shadow: 0 0 10px #ff80ab; }
+      to { text-shadow: 0 0 20px #f50057; }
+    }
+
+    .flowers {
+      font-size: 30px;
+      margin: 20px 0;
+    }
+
+    a button {
+      margin-top: 20px;
+      padding: 15px 30px;
+      font-size: 20px;
+      background: #ff80ab;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      color: white;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    a button:hover {
+      background: #f50057;
+      transform: scale(1.1);
+    }
+  </style>
+</head>
+<body>
+  <h1>🎉 Happy Birthday 🎉</h1>
+  <div class="flowers">🌸🌼🌺🌹🌻🌷🌸🌼🌺</div>
+
+  <a href="cake.html">
+    <button>🎁 Buka Kado</button>
+  </a>
+</body>
+</html>
